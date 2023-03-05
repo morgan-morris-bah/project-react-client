@@ -29,7 +29,7 @@ node {
 	  if(response=="Yes") {
 	  
 	    stage('Release - AuthService') {
-	      sh 'docker stop mcc-auth'
+	      sh 'docker stop react'
 	      sh 'echo MCC AuthService is ready to release!'
 	    }
 	  }
