@@ -28,9 +28,9 @@ node {
 	
 	  if(response=="Yes") {
 	  
-	    stage('Release - AuthService') {
+	    stage('Release - React Service') {
 	      sh 'docker stop react'
-	      sh 'echo MCC AuthService is ready to release!'
+	      sh 'echo React Service is ready to release!'
 	    }
 	  }
     }
